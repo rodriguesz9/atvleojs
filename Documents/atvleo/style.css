@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f5f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .sub-header {
+    font-size: 14px;
+    margin: 5px 0 15px 0;
+    color: #bbb;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.card-section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.destaque {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+/* Caixas */
+.caixa {
+    background-color: #eaeaea;
+    border: 2px solid transparent; /* Inicialmente transparente para transição suave */
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.caixa h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* Classes utilitárias para bordas via JS */
+.borda-verde {
+    border-color: #28a745 !important;
+}
+
+.borda-azul {
+    border-color: #007bff !important;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button, #btn-enviar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover, #btn-enviar:hover {
+    background-color: #0056b3;
+}
+
+/* Lista de Tecnologias */
+.card-section ul {
+    padding-left: 20px;
+}
+
+.card-section ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Imagem */
+.image-box {
+    background-color: #e3edf7;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    gap: 10px;
+}
+
+.image-box img {
+    width: 40px;
+    height: 40px;
+}
+
+.image-box span {
+    font-size: 11px;
+    color: #555;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+input, select, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
